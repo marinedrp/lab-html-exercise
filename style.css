@@ -36,7 +36,10 @@ nav a {
 #bottom-div {
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 #npm-logo {
@@ -44,23 +47,176 @@ nav a {
 }
 
 #glass {
-    width: 20px;
+    width: 30px;
     
 }
 
 #search-bar {
     background-color: rgba(0,0,0,.05);
-    width: 75%;
+    padding: 5px;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #query {
     border: none;
     background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    margin-left: 50px;
+
 }
 
-button {
+.search {
     background-color: #fb3e44;
     color: white;
-    border-color: rgba(0,0,0,.05);
+    border:1px solid;
+    border-color: grey;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    margin-left: 1700px;
+
+}
+
+
+#join {
+    border: 1px solid;
+    border-color:  black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#login {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.section1 {
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
+
+}
+
+.build {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5em;
+    padding-top: 70px;
+}
+
+.essential {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.plans {
+    background-color: #FB3B49;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 50px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.join-for-free {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding-left: 100px;
+}
+
+.section2 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon {
+    width: 300px;
+
+}
+
+h2 {
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    font-size: 2.5em;
+    padding: 0px 50px;
+    margin-top: 80px;
+}
+
+.tool {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.section3 {
+    height: 600px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.icons {
+    width: 40px;
+}
+
+.features {
+    width: 250px;
+}
+
+h3 {
+    color:#ED1C24;
+}
+
+.org {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 50px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 80px 40% 120px 40%;
 }
